@@ -20,7 +20,8 @@ async def team(ctx):
    team = ['GG BoyZ', 
            'Libalent Clamari', 
            'BBV TOKYO', 
-           '波乱万丈', 'TASO', 
+           '波乱万丈', 
+           'TASO', 
            'DetonatioN Gaming', 
            '王の運搬クエスト(スプラ1より)']
 
