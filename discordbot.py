@@ -17,12 +17,12 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
-@bot.command(/a)
-async def a(ctx):
+@bot.command(/up)
+async def u(ctx):
     await ctx.send('GG Boyz:たいじ,ダイナモン,えとな,レン(Ren〆Zone)')
     
-@bot.command(/b)
-async def b(ctx):
+@bot.command(/down)
+async def d(ctx):
     await ctx.send('Libalent Clamari:くろす,あとばる,ぴょん,2438学園')    
     
 
