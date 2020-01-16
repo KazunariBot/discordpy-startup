@@ -1,6 +1,7 @@
 from discord.ext import commands
 import os
 import traceback
+import random
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
@@ -15,7 +16,6 @@ async def on_command_error(ctx, error):
 @client.event
 async def omikuzi(ctx):
     
-import random
 
 omikuzi = [
             "大吉"   if i < 2 else
