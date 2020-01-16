@@ -22,7 +22,7 @@ async def bbuki(ctx):
     
 @bot.command()
 async def cbuki(ctx):
-    await ctx.send('BBV TOKYO(Cool&Cool):むしきんぐ(シューター),反射神経(クアッド),うどん店長(チャー系),のりすけ(H3D/わかば)')  
+    await ctx.send('BBV TOKYO:むしきんぐ(シューター),反射神経(クアッド),うどん店長(チャー系),のりすけ(H3D/わかば)')  
     
 @bot.command()
 async def dbuki(ctx):
