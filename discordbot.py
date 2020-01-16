@@ -20,8 +20,6 @@ async def team(ctx):
    team = ['GG BoyZ', 'Libalent Clamari', 'BBV TOKYO', '波乱万丈', 'TASO', 'DetonatioN Gaming', '王の運搬クエスト(スプラ1より)']
    choice1 = random.choice(team)
    choice2 = random.choice(team)
-   await ctx.send('alpha:'choice1)
-   await ctx.send('bravo:'choice2)
-
+   await ctx.send('alpha:'choice1, 'bravo:'choice2)
     
 bot.run(token)
