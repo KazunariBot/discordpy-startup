@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def abuki(ctx):
-    await ctx.send('GG Boyz:たいじ(シューター),ダイナモン(ラピ/バレ/ナモ/エク),えとな(シューター/バケ凸/キャンプ),Ren〆Zone(バケ凸/L3)')
+    await ctx.send('GG BoyZ:たいじ(シューター),ダイナモン(ラピ/バレ/ナモ/エク),えとな(シューター/バケ凸/キャンプ),Ren〆Zone(L3)')
     
 @bot.command()
 async def bbuki(ctx):
@@ -34,7 +34,7 @@ async def ebuki(ctx):
     
 @bot.command()
 async def fbuki(ctx):
-    await ctx.send('DetonatioN Gaming:ミリンケーキ(傘/L3),ku(マニュコラ/L3D),れき(ジェット/エク/バレ),けいとぅーん(バケ凸)')    
+    await ctx.send('DetonatioN Gaming:ミリンケーキ(傘/L3),ku(マニュコラ/L3D),れき(ジェット/エク/バレ),けいとぅーん(バケ凸/キャンプ)')    
 
 @bot.command()
 async def gbuki(ctx):
