@@ -17,7 +17,7 @@ async def on_command_error(ctx, error):
 @bot.command()    
 async def team(ctx): 
     
-   team = ['GG BoyZ', 
+   teama = ['GG BoyZ', 
            'Libalent Clamari', 
            'BBV TOKYO', 
            '波乱万丈', 
@@ -25,7 +25,18 @@ async def team(ctx):
            'DetonatioN Gaming', 
            '王の運搬クエスト(スプラ1より)']
 
-   choice = random.choice(team)
-   await ctx.send('a', choice)
+   teamb = ['GG BoyZ', 
+           'Libalent Clamari', 
+           'BBV TOKYO', 
+           '波乱万丈', 
+           'TASO', 
+           'DetonatioN Gaming', 
+           '王の運搬クエスト(スプラ1より)']
+
+   choicea = random.choice(teama)
+   choiceb = random.choice(teamb)
+    
+   await ctx.send(choicea)
+   await ctx.send(choiceb)
     
 bot.run(token)
