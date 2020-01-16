@@ -1,6 +1,7 @@
 from discord.ext import commands
 import os
 import traceback
+import random
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
@@ -14,9 +15,7 @@ async def on_command_error(ctx, error):
     
     
 async def team(ctx):
-
-    import random
-
+    
     team = [
     
     'GG BoyZ:たいじ(シューター),ダイナモン(ラピ/バレ/ナモ/エク),えとな(シューター/バケ凸/キャンプ),Ren〆Zone(L3)' if i < 2 else
