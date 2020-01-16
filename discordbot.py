@@ -38,10 +38,6 @@ async def fbuki(ctx):
 
 @bot.command()
 async def gbuki(ctx):
-    await ctx.send('ハイパービーム:テルミ(パブロ系),けいとぅーん(バケ凸),しめぴぃ(傘/スプスピ),ミルクレープ(スコ有チャー/リッター)')     
-
-@bot.command()
-async def hbuki(ctx):
     await ctx.send('王の運搬クエスト:もこう(カー凸),たいじ(96凸),りんごもちぃ(96凸),ティラミス(96凸)')    
     
 bot.run(token)
