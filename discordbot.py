@@ -26,6 +26,6 @@ async def team(ctx):
            '王の運搬クエスト(スプラ1より)']
 
    choice = random.choice(team)
-   await ctx.send(choice)
+   await ctx.send('a', choice)
     
 bot.run(token)
