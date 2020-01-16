@@ -18,11 +18,11 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def 1(ctx):
+async def abuki(ctx):
     await ctx.send('GG Boyz:たいじ,ダイナモン,えとな,レン(Ren〆Zone)')
     
 @bot.command()
-async def 2(ctx):
+async def bbuki(ctx):
     await ctx.send('Libalent Clamari:くろす,あとばる,ぴょん,2438学園')    
     
 
